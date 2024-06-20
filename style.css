@@ -1,0 +1,307 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.color-changetext {
+  color: black;
+  transition: color 0.3s;
+}
+
+.color-changetext:hover {
+  color: red;
+}
+
+body {
+  background-color: powderblue;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  justify-content: center;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+
+.image-container {
+  width: 70%;
+  height: auto;
+  position: relative;
+  align-items: center;
+  margin: auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.invisible-button-A {
+  position: absolute;
+  top: 46%;
+  left: 63%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-B {
+  position: absolute;
+  top: 39%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-C {
+  position: absolute;
+  top: 46%;
+  left: 65%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-D {
+  position: absolute;
+  top: 48%;
+  left: 63%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-E {
+  position: absolute;
+  top: 22%;
+  left: 75%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-F {
+  position: absolute;
+  top: 39%;
+  left: 83%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-G {
+  position: absolute;
+  top: 59%;
+  left: 61%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-H {
+  position: absolute;
+  top: 63%;
+  left: 72%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-I {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-J {
+  position: absolute;
+  top: 35%;
+  left: 94%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-K {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-L {
+  position: absolute;
+  top: 56%;
+  left: 70%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-M {
+  position: absolute;
+  top: 64%;
+  left: 78%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.invisible-button-N {
+  position: absolute;
+  top: 90%;
+  left: 70%;
+  width: 25px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+p {
+  font-size: 20px
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.image-container1 {
+  width: 25%;
+  height: auto;
+  position: relative;
+  align-items: center;
+  margin: auto;
+  top:-20%;
+  left:-30%;
+}
+
+.image-container1 img {
+  width: 100%;
+  height: auto;
+}
