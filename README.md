@@ -1,1 +1,2 @@
-Un compte rendue d'un voyage que l'on devait faire en seconde. (dans mon cas c'était Barcelonne et j'ai choisit de faire ce site)
+BLOG
+Un compte-rendu de notre voyage de classe en seconde. (dans mon cas c'était Barcelone et j'ai choisi de faire ce site)
